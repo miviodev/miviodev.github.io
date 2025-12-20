@@ -1,0 +1,161 @@
+/* Сброс базовых настроек */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #272729;
+  color: azure;
+  font-family: 'Courier New', monospace;
+  line-height: 1.5;
+}
+h3 {
+  text-align: center;
+  font-size: medium;
+}
+.main-div {
+  background-color: #1f1f20;
+  margin: 20px auto;
+  width: 60%;
+  padding: 20px;
+  min-height: 760px;
+  min-width: 650px;
+}
+
+.section-title {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.feature {
+  min-width: 600px;
+  background-color: #151516;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.feature img {
+  width: 720px; /* или задай нужный размер */
+
+  height: auto;
+  margin-top: 4px;
+  transition: all 0.5s ease;
+}
+.feature img:hover {
+  scale: 105%;
+}
+.feature-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  align-items: flex-start; /* текст по левому краю */
+}
+
+.feature p {
+  text-align: left;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Кнопки */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #ddd;
+  border: 1px solid #555;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  min-width: 140px; /* достаточно для надписи */
+}
+
+.btn:hover {
+  background-color: #444;
+  color: #fff;
+  border-color: #777;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border-color: #5a3a8d;
+  color: #bb86fc;
+}
+
+.btn-outline:hover {
+  background-color: rgba(115, 0, 255, 0.2);
+  color: #fff;
+}
+.mivio-service {
+  color: #85ff95;
+}
+.footer {
+  background-color: #151516;
+  display: flex;
+  flex-direction: column;     /* Основное: теперь вертикально */
+  align-items: center;        /* Центрируем по горизонтали */
+  padding: 15px;
+  gap: 12px;                  /* Промежуток между ссылками и надписью */
+  margin-top: auto;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;            /* На случай узких экранов */
+  justify-content: center;
+}
+
+.footer-links a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: azure;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #bb86fc;
+}
+
+.footer-links a.tg:hover {
+  color: #86d7fc;
+}
+
+.footer-notice {
+  text-align: center;
+  font-size: 0.85em;
+  color: #aaa;
+}
+
+.footer-notice a {
+  color: #888;
+  text-decoration: underline;
+}
+.notice {
+margin-top: 40px;
+  padding: 15px;
+  background-color: #1a1a1a;
+  border-left: 4px solid #30D475;
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
