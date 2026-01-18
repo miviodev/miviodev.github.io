@@ -93,9 +93,27 @@ h3 {
   border-color: #5a3a8d;
   color: #bb86fc;
 }
+.btn-outline-tea {
+  background-color: transparent;
+  border-color: #3a8d4f;
+  color: #86fc86;
+}
 
+.btn-outline-crates {
+  background-color: transparent;
+  border-color: #eead20;
+  color: #fcd786;
+}
 .btn-outline:hover {
   background-color: rgba(115, 0, 255, 0.2);
+  color: #fff;
+}
+.btn-outline-tea:hover {
+  background-color: rgba(0, 255, 13, 0.2);
+  color: #fff;
+}
+.btn-outline-crates:hover {
+  background-color: rgba(255, 166, 0, 0.2);
   color: #fff;
 }
 .mivio-service {
@@ -135,7 +153,9 @@ h3 {
 .footer-links a.tg:hover {
   color: #86d7fc;
 }
-
+.footer-links a.gitea:hover {
+  color: #9efc86;
+}
 .footer-notice {
   text-align: center;
   font-size: 0.85em;
